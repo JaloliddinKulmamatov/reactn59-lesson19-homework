@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    .single {
+        border: 5px solid #010101;
+        background-color: #f5f5f5;
+        position: fixed;
+        top: 30%;
+        right: 0.1%;
+        width: 50%;
+        img {
+            max-width: 350px;
+        }
+    }
+    .wrap {
+        width: 50%;
+        .wrapper__card {  
+            display: flex;
+            border-color: #fff; 
+            border: 2px solid #000;
+            gap: 10px;
+            margin-bottom: 5px;
+        .wrapper__card__top {
+            max-width: 200px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+}
